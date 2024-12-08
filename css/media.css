@@ -336,16 +336,19 @@
 
     .choose-us {
         width: calc((100% - (2.5rem)*2) / 3);
+        order: 3;
 
     }
 
     .company {
         width: calc((100% - (2.5rem)*2) / 3);
+        order: 1;
 
     }
 
     .resources-links {
         width: calc((100% - (2.5rem)*2) / 3);
+        order: 2;
     }
 
 
@@ -360,17 +363,19 @@
 
     .choose-us {
         width: calc((100% - (2.5rem)*2) / 6);
-
+        order: 0;
     }
 
     .company {
         width: calc((100% - (2.5rem)*2) / 8);
-
+        order: 0;
     }
 
     .resources-links {
         width: calc((100% - (2.5rem)*2) / 8);
+        order: 0;
     }
+    
 
 
 
